@@ -1,17 +1,12 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
-import Container from "./assets/components/Container";
-import Card from "./assets/components/Card";
-
-function App() {
-  
-
+import './App.css'
+import Container from './assets/components/Container'
+import List from './assets/components/List'
+import Card from './assets/components/Card'
+const App = () => {
   return (
     <>
       <Container />
-      <Card />
+      <Card/> 
     </>
   );
 }
