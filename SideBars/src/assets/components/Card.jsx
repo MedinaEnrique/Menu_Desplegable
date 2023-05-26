@@ -5,7 +5,7 @@ const Card = () => {
     return (
         <>
             <div className='container mt-5'>
-                <div className="card mx-auto shadow justify-content-center d-flex align-items-center p-5"> 
+                <div className="card col-md-5 col-lg-4 mx-auto shadow"> 
                     <Imagen />
                     <CardBody />
                 </div>
